@@ -1,0 +1,13 @@
+/* CSS Resets */
+body {
+    margin: unset;
+    padding: unset;
+}
+
+body {
+    background-color: #D9D9D9;
+}
+
+.wrapper {
+    background-color: white;
+}
