@@ -62,7 +62,7 @@ body {
     border-radius: 0 10px 10px 0;
     display: inline-block;
     margin-right: 30px;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 .bucketlist-lists .list .list-item{
