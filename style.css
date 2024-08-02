@@ -44,21 +44,25 @@ body {
 
 .bucketlist-header {
     background-color: #FFF;
-    padding: 46px 0;
+    padding: 42px 0;
     border-bottom: 4px solid #DDD;
 }
 
 .bucketlist-header .title {
-    background-image: url(./images/pink-border.svg);
-    background-repeat: no-repeat;
-    background-position: left center;
     font-size: 24px;
     font-weight: bold;
     color: #FF007A;
-    padding-left: 38px;
-    /* border-left: 8px solid;
-    padding-left: 30px; */
-    line-height: 32px;
+}
+
+.bucketlist-header .title:before {
+    content: ' ';
+    width: 8px;
+    height: 32px;
+    background-color: #FF007A;
+    border-radius: 0 10px 10px 0;
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: middle;
 }
 
 .bucketlist-lists .list .list-item{
@@ -78,7 +82,7 @@ body {
 
 .bucketlist-lists .list .list-item:hover {
     background-image: url(./images/check-selected.svg);
-    margin: 14px -20px;
+    margin: 0 -20px 14px;
     padding: 13px 10px;
     color: #759CFF;
     border: 2px solid;
